@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #D5E1EF;
+  }
+  
+  .card {
+    background-color: #ffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 25rem;
+    width: 15rem; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .qr-code {
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .card-description {
+    margin-top: 10px;
+    font-size: 1em; 
+    color: #666;
+    line-height: 1.5;
+  }
+  
